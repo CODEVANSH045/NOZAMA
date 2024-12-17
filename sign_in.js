@@ -30,6 +30,6 @@ document.getElementById('signInForm').addEventListener('submit', function(event)
     if (isValid) {
         alert('Sign In Successful!');
         // Redirect to the homepage after the user clicks OK on the alert
-        window.location.href = "http://127.0.0.1:3000/web%20development%20project.html/home.html";  // You can replace '/' with your homepage URL
+        window.location.href = "http://127.0.0.1:3000/web%20development%20project.html/index.html";  // You can replace '/' with your homepage URL
     }
 });
